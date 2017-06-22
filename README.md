@@ -7,7 +7,7 @@ Created by Lars Peterson with inspiration from Bootstrap and Foundation.
 ## The Grid System
 ![Grid System](https://www.rushu.rush.edu/sites/default/files/Rush-12-grid-thumb.png)
 
-The Grid System is comprised of 12 columns on any screen size. I have created the grid to be customizable and adaptable to many different types of projects. The Grid System has four breakpoints; extra-small (default), small, medium, large, and extra-large. Adhesive is a mobile-first framework, and has been developed with that idea to the core.
+The Grid System is comprised of 12 columns on any screen size. I have created the grid to be customizable and adaptable to many different types of projects. The Grid System has four breakpoints; extra-small (default), small, medium, large, and extra-large. Adhesive is a mobile-first framework, and has been developed with that idea from the core.
 
 ### Rows and Columns
 The row syntax is written as the following: ```<div class='row'>```. And columns ```<div class='col-1'>```. The number in the column class defines the amount of columns that container will span.
@@ -23,6 +23,8 @@ The ```onload``` event triggers when the DOM is loaded and ready. The ```onready
 
 ## Styling and Formating
 Adhesive provides classes to style and format your website. This framework was primarily designed to help with sizing, formatting, and templating. However, with that in mind, it offers some premade designs that you should overrite in your custom stylesheet.
+
+BE AWARE: Any styles you apply will carry over to the next size up because this is a mobile-first framework. I have listed, under each section, how to address this.
 
 ### Text
 You can use the ```text-center```, ```text-left```, ```text-right```, and ```text-justify``` classes to format text. You can also add colors to your text by using any of the following classes: ```text-black```, ```text-white```, ```text-green```, ```text-red```, ```text-orange```, ```text-purple```, ```text-grey```, ```text-yellow```, ```text-blue```, and ```text-pink```.
