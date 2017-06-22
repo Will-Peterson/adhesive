@@ -25,4 +25,4 @@ The ```onload``` event triggers when the DOM is loaded and ready. The ```onready
 Adhesive provides classes to style and format your website. This framework was primarily designed to help with sizing, formatting, and templating. However, with that in mind, it offers some premade designs that you should overrite in your custom stylesheet.
 
 ### Text
-You can use the ```text-center```, ```text-left```, ```text-right```, and ```text-justify``` classes to format text. You can also add colors to your text by using any of the following classes.
+You can use the ```text-center```, ```text-left```, ```text-right```, and ```text-justify``` classes to format text. You can also add colors to your text by using any of the following classes: ```text-black```, ```text-white```, ```text-green```, ```text-red```, ```text-orange```, ```text-purple```, ```text-grey```, ```text-yellow```, ```text-blue```, and ```text-pink```.
