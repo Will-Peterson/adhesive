@@ -46,7 +46,7 @@ html {
   flex-wrap: wrap;
   justify-content: flex-start; /* Horizontal Align */
   align-items: flex-start; /* Vertical Align */
-  width: 100%;
+  width: 100%; /*yup*/
 }
 
 /************************************************************************************** COLUMNS */
